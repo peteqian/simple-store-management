@@ -23,7 +23,7 @@ To run the Tour of Heroes app with simple store management, follow these steps:
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone <repository-url>
+   git clone https://github.com/peteqian/simple-store-management.git
    ```
 
 2. Navigate to the cloned directory:
