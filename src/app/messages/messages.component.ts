@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MessageService } from '../message.service';
+import { MessageService } from '../shared/services/message/message.service';
 
 @Component({
   selector: 'app-messages',
@@ -7,7 +7,5 @@ import { MessageService } from '../message.service';
   styleUrls: ['./messages.component.css']
 })
 export class MessagesComponent {
-
   constructor(public messageService: MessageService) {}
-
 }
