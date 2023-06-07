@@ -18,6 +18,4 @@ export class HeroStore extends Store<HeroState> {
   public get heroes(): Hero[] {
     return this.state.heroes;
   }
-
-  
 }
